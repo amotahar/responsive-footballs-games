@@ -1,0 +1,509 @@
+/* font  */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: #FFFFFF;
+}
+header{
+    background-color: 
+    #2D25A0;
+    width: 100%
+}
+
+/*******************
+   header styles 
+***************** */
+
+nav{
+    display: flex;
+    justify-content: center;
+   
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    Width :1160px;
+    margin: 42px 0 ;
+    align-items: center;
+}
+.nav-links{
+    padding: 10px;
+}
+.header-link:hover{
+    color: #E02C6D;
+}
+.header-link{
+    text-decoration: none;
+    color:  #FFFFFF;
+    padding:0 35px;
+}
+/* .nav-button{
+    background-color: #E02C6D;
+} */
+.header-text-img-box{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 50px 120px 0 180px;
+    padding: 0 0 115px 0;
+
+}
+.buttons{
+    color: #FFFFFF;
+    background-color: #E02C6D;
+    text-decoration: none;
+    padding: 10px 25px;
+}
+.header-text-box{
+    width: 530px;
+    height: 438px;
+}
+.header-text-font{
+    font-weight: 700;
+    font-size: 64px;
+    color: #FFFFFF;
+}
+.button-box{
+    margin: 25px 0 0 0;
+}
+.header-img-box img:hover{
+    cursor: pointer;
+    transition: transform .3s ease-in;
+    transform: translate(30px,-30px);
+}
+.header-img-box img{
+    width: 530px;
+    height: 438px;
+}
+/*-------------
+ Main Part Styles 
+ ---------------*/
+ .players{
+     display: flex;
+     justify-content: center;
+     margin: 70px 0 ;
+     
+ }
+ .player-cards{
+     display: grid;
+     grid-template-columns: repeat(3,1fr);
+     grid-gap: 30px;
+ }
+ 
+ .player-card{
+    width: 330px;
+    padding: 15px;
+    /* height: 474px; */
+    border: 3px solid #FFFFFF;
+    box-shadow: 0px 0px 40px rgba(0,0,0,.15);
+ }
+ .player-card img{
+     width: 100%;
+ }
+ .player-name{
+     font-weight: 700 ; 
+     font-size: 28px;
+ }
+
+ /*---------------
+ Main section two styles
+ -----------------*/
+  .highlights{
+      display: flex;
+      justify-content: space-between;
+      margin: 165px 150px 170px 240px
+  }
+  .highlights-text{
+    width: 469px;
+    height: 309px;
+    margin: 55px 0 0 0;
+  }
+ .highlights-text-font{
+     font-size: 48px ;
+     color:  #0A0826;
+ }
+ .highlights-img{
+    width: 567px;
+    height: 427px;
+ }
+ .highlights-img img{
+     width: 100%;
+ }
+
+ /*----------
+ coaches stylees
+ ------------*/
+ .coaches{
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     margin: 10px 0 50px 0px;
+ }
+ .coach-font{
+     font-size: 50px;
+     margin: 0 0 25px 0;
+ }
+ .coaches-box{
+     display: grid;
+     grid-template-columns: repeat(2,1fr);
+     grid-gap: 20px 45px;
+     margin: 0 0 30px 0;
+ }
+ .coach-card img{
+     width: 300px;
+     height: 285px;
+
+     
+ }
+ /*------------
+  blog styles 
+  -----------*/
+  .blog-font{
+    text-align: center;
+      margin: 10px 0 20px 0;
+      font-size: 50px;
+  }
+  .blogs-part{
+     
+      margin: 60px 0 80px 0;
+      display: flex;
+      justify-content: center;
+  }
+  .blogs{
+      display: grid;
+      grid-template-columns: repeat(2,1fr);
+      grid-gap: 30px;
+  }
+.blog{
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    
+    
+}
+.blog img{
+    width: 100%;
+    margin: 0 0 20px 0;
+}
+
+
+hr{
+    border: 1px solid #808080;
+    margin: 5px 0;
+}
+.article-title{
+    font-size: 28px;
+}
+.blog-btns{
+    margin: 35px 0 0 0;
+}
+.blog-btn{
+    text-decoration: none;
+    padding: 10px 25px;
+    color: #0A0826;
+    border: 2px solid;
+}
+/*---------
+ contact styles 
+------------ */
+.contact{
+    margin: 150px 0 100px 0;
+    display: flex;
+    justify-content: center;
+}
+.contact-box{
+    padding: 60px 100px;
+    width: 1200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 1px 0px 40px rgb(0 0 0 /50%);
+}
+.contact-img img{
+    width: 300px;
+    height: 250px;
+}
+.form-title{
+    font-size: 22px;
+    margin: 0 0 5px 5px;
+}
+.form-bar{
+    margin: 5px;
+    border-radius: 5px;
+    padding: 5px 10px;
+    width: 300px;
+}
+.form-button{
+    border-radius: 1px solid #2D25A0;
+    background-color: #392fc9;
+    color: #FFFFFF;
+}
+/*--------------
+servicees part start
+---------------*/
+
+.service-boxes{
+    display: flex;
+    justify-content: center;
+}
+.service-box{
+    display: grid;
+    grid-gap: 70px;
+    grid-template-columns: repeat(4,1fr);
+}
+.service-item{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    border: 1px solid;
+}
+.service-logo-text{
+    font-size: 40px;
+}
+/*----------------
+ footer section style 
+ -----------------*/
+ footer{
+     display: flex;
+     justify-content: center;
+ }
+ 
+ .footer-box{
+    width: 483.87px;
+    height: 213px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 50px 0 65px 0;
+ }
+ .footer-logo-img{
+    width: 483.87px;
+    height: 213px;
+ }
+ .footer-logo-img img{
+     width: 100%;
+ }
+ .footer-icons{
+     margin: 0 0 20px 0;
+ }
+ .icon{
+     
+     /* background-color:  #969BAB ;; */
+     color:  #0B0D17;
+     padding:   7px;
+     border-radius: 25px;
+     /* color: #FFFFFF; */
+     margin: 5px;
+ }
+
+ /*************
+  Media Quaries
+ ***************/
+
+ @media only screen and (max-width:688px) {
+     *{
+         margin: 0;
+         padding: 0;
+         box-sizing: border-box;
+     }
+     body{
+         overflow-x: hidden;
+     }
+     header{
+         width: 100%;
+     }
+     .navbar{
+         width: 100%;
+         justify-content: flex-end;
+     }
+     .nav-links{
+         display: none;
+     }
+
+     /*---------------
+     header 2d part
+     ---------------*/
+     .header-text-img-box{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        padding: unset;
+        align-items: flex-start;
+        margin: 0 0 0 45px
+}
+
+     .header-text-box{
+         width: 230px;
+         height: 270px;
+     }
+     .header-img-box{
+        width: 250px;
+        height: 270px;
+    }
+     .header-text-font{
+         font-size: 32px;
+         margin: 0 0 15px 0;
+     }
+
+     .header-img-box img{
+         
+        width: 265px;
+        height: auto;
+        margin: 0 0 60px 0;}
+     
+        .buttons{
+            padding: 10px;
+            font-size: 11px;
+        }
+
+        /*----------
+        main start
+        ------------*/
+        /*-----------
+             players
+        -----------  */
+        .players{
+            width: 100%;
+        }
+        .player-cards{
+            grid-template-columns: repeat(1,1fr);
+        }
+        .player-card{
+            width: 300px;
+        }
+        .player-name{
+            font-weight: 700 ; 
+            font-size: 28px;
+        }
+        .player-info{
+            font-size: 16px;
+        }
+        /*-----------
+        palyers end
+        -----------*/
+
+        /*-----------
+        highlights start
+        --------------*/
+
+        .highlights{
+            width: 100%;
+            margin: 0;
+            flex-direction: column;
+            align-items: center;
+
+        }
+        .highlights-text{
+            margin: 0 0 0 16px;
+            width: 320px;
+            height: 260px;
+        }
+        .highlights-text-font{
+            font-size: 18px;
+        }
+        .button-box{
+            margin: 0;
+        }
+        .highlights-img{
+            margin: 0 0 0 -20px;
+            width: 285px;
+            height: 240px;
+        }
+        /*---------
+        coaches start
+        ------------*/
+        .coaches{
+            width: 100%;
+        }
+        .coach-font{
+            font-size: 28px;
+            margin: 80px 0 25px 0;
+        }
+        .coach-card{
+            width: 260px;
+        }
+        .coach-card img{
+            width: 100%
+        }
+        .coaches-box{
+            grid-template-columns: repeat(1,1fr);
+        }
+
+        /*---------
+          blog part
+        --------------*/
+        article{
+            width: 100%;
+        }
+        .blogs{
+            grid-template-columns: repeat(1,1fr);
+            width: 100%;
+        }
+        .blogs-part{
+            width: 100%;
+            justify-content: unset;
+            flex-direction: column;
+            margin: 60px 0 80px 0px;
+
+
+        }
+        .blog img{
+            width: 95%;
+        }
+
+        .blog-font{
+            font-size: 30px;
+        }
+        .blog{
+            width: 290px;
+            margin: 0 0 0 16px;
+        }
+        .article-title{
+            font-size: 18px;
+        }
+        .blog-btn{
+            padding: 0 5px;
+            font-size: 16px;
+        }
+        /*-------
+        contact part
+        -----------*/
+        .contact{
+            width: 100%;
+        }
+        .contact-box{
+            width: 290px;
+            flex-direction: column;
+        }
+        .contact-img img{
+            width: 210px;
+            height: 200px;
+        }
+        form{
+            width: 210px;
+        }
+        .form-bar{
+            width: 200px;
+        }
+        /*---------
+        footer part
+        -----------*/
+        footer{
+            width: 100%;
+        }
+        .footer-box{
+            width: 210px;
+            height: 200px;
+        }
+        .footer-logo-img{
+            width: 185px;
+            height: 180px;
+        }
+
+ }
